@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LitDoublyCurledCone", "LitDoublyCurledCone.vcxproj", "{390BE142-581A-4313-B783-20DD22667F2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{390BE142-581A-4313-B783-20DD22667F2C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{390BE142-581A-4313-B783-20DD22667F2C}.Debug|Win32.Build.0 = Debug|Win32
+		{390BE142-581A-4313-B783-20DD22667F2C}.Release|Win32.ActiveCfg = Release|Win32
+		{390BE142-581A-4313-B783-20DD22667F2C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

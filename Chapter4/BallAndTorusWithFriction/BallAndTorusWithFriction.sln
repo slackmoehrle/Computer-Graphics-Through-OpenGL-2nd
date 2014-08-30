@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallAndTorusWithFriction", "BallAndTorusWithFriction.vcxproj", "{84A8F3FB-C182-4AB8-BEA7-5A119586E158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84A8F3FB-C182-4AB8-BEA7-5A119586E158}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84A8F3FB-C182-4AB8-BEA7-5A119586E158}.Debug|Win32.Build.0 = Debug|Win32
+		{84A8F3FB-C182-4AB8-BEA7-5A119586E158}.Release|Win32.ActiveCfg = Release|Win32
+		{84A8F3FB-C182-4AB8-BEA7-5A119586E158}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

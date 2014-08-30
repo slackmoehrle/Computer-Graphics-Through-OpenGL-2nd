@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LitBezierCanoe", "LitBezierCanoe.vcxproj", "{259B71BB-994A-4C05-8E96-C8D39FB0A341}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{259B71BB-994A-4C05-8E96-C8D39FB0A341}.Debug|Win32.ActiveCfg = Debug|Win32
+		{259B71BB-994A-4C05-8E96-C8D39FB0A341}.Debug|Win32.Build.0 = Debug|Win32
+		{259B71BB-994A-4C05-8E96-C8D39FB0A341}.Release|Win32.ActiveCfg = Release|Win32
+		{259B71BB-994A-4C05-8E96-C8D39FB0A341}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

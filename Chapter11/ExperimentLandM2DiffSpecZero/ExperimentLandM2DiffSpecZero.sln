@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExperimentLandM2DiffSpecZero", "ExperimentLandM2DiffSpecZero.vcxproj", "{20FF1E51-3459-4F20-979F-B745E59FB2D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20FF1E51-3459-4F20-979F-B745E59FB2D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20FF1E51-3459-4F20-979F-B745E59FB2D6}.Debug|Win32.Build.0 = Debug|Win32
+		{20FF1E51-3459-4F20-979F-B745E59FB2D6}.Release|Win32.ActiveCfg = Release|Win32
+		{20FF1E51-3459-4F20-979F-B745E59FB2D6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

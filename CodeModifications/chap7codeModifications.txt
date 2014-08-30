@@ -1,0 +1,19 @@
+Block 1:
+   glBegin(GL_TRIANGLES);
+      glColor3f(1.0, 0.0, 0.0);
+      glVertex3f(20.0, 20.0, 0.0);
+      glColor3f(0.0, 1.0, 0.0);
+      glVertex3f(80.0, 20.0, 0.0);
+      glColor3f(0.0, 0.0, 1.0);
+      glVertex3f(80.0, 80.0, 0.0);
+   glEnd();
+
+Block 2:
+   glBegin(GL_TRIANGLES);
+      glColor3f(1.0, 0.0, 0.0);
+      glVertex3f(20.0, 20.0, 0.0);
+      glColor3f(0.0, 1.0, 0.0);
+      glVertex3f(80.0, 20.0, 0.0);
+      glColor3f(0.0, 0.0, 1.0);
+      glVertex3f(80.0, 80.0, 0.0);
+   glEnd();

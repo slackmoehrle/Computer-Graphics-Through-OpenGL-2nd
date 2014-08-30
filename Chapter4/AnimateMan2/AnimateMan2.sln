@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnimateMan2", "AnimateMan2.vcxproj", "{061D677C-2C06-4402-8CF3-0A276CE3BB6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{061D677C-2C06-4402-8CF3-0A276CE3BB6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{061D677C-2C06-4402-8CF3-0A276CE3BB6A}.Debug|Win32.Build.0 = Debug|Win32
+		{061D677C-2C06-4402-8CF3-0A276CE3BB6A}.Release|Win32.ActiveCfg = Release|Win32
+		{061D677C-2C06-4402-8CF3-0A276CE3BB6A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

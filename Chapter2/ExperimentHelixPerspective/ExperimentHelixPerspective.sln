@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExperimentHelixPerspective", "ExperimentHelixPerspective.vcxproj", "{CBE33C8B-68E5-4956-AE25-F2A4695EDD6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE33C8B-68E5-4956-AE25-F2A4695EDD6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBE33C8B-68E5-4956-AE25-F2A4695EDD6A}.Debug|Win32.Build.0 = Debug|Win32
+		{CBE33C8B-68E5-4956-AE25-F2A4695EDD6A}.Release|Win32.ActiveCfg = Release|Win32
+		{CBE33C8B-68E5-4956-AE25-F2A4695EDD6A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

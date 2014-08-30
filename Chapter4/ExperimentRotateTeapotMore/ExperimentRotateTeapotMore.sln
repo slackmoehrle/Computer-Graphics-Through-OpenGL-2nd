@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExperimentRotateTeapotMore", "ExperimentRotateTeapotMore.vcxproj", "{681B0AF8-4AC8-4844-98C1-2F181F914123}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{681B0AF8-4AC8-4844-98C1-2F181F914123}.Debug|Win32.ActiveCfg = Debug|Win32
+		{681B0AF8-4AC8-4844-98C1-2F181F914123}.Debug|Win32.Build.0 = Debug|Win32
+		{681B0AF8-4AC8-4844-98C1-2F181F914123}.Release|Win32.ActiveCfg = Release|Win32
+		{681B0AF8-4AC8-4844-98C1-2F181F914123}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

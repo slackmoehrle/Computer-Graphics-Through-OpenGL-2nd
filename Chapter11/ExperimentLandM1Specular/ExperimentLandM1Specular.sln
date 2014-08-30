@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExperimentLandM1Specular", "ExperimentLandM1Specular.vcxproj", "{FAEA70A0-0D91-43F6-AE72-C3DAE82CC6E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAEA70A0-0D91-43F6-AE72-C3DAE82CC6E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAEA70A0-0D91-43F6-AE72-C3DAE82CC6E6}.Debug|Win32.Build.0 = Debug|Win32
+		{FAEA70A0-0D91-43F6-AE72-C3DAE82CC6E6}.Release|Win32.ActiveCfg = Release|Win32
+		{FAEA70A0-0D91-43F6-AE72-C3DAE82CC6E6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

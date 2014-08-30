@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExperimentQuadraticSplineDoubleKnot", "ExperimentQuadraticSplineDoubleKnot.vcxproj", "{E2F6A2B9-775B-4FE9-8DBD-A50EEE27C21D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2F6A2B9-775B-4FE9-8DBD-A50EEE27C21D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2F6A2B9-775B-4FE9-8DBD-A50EEE27C21D}.Debug|Win32.Build.0 = Debug|Win32
+		{E2F6A2B9-775B-4FE9-8DBD-A50EEE27C21D}.Release|Win32.ActiveCfg = Release|Win32
+		{E2F6A2B9-775B-4FE9-8DBD-A50EEE27C21D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

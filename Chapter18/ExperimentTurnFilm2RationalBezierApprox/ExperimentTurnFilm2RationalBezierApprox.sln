@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExperimentTurnFilm2RationalBezierApprox", "ExperimentTurnFilm2RationalBezierApprox.vcxproj", "{614F28ED-C4A7-4EA3-A8B6-633229578562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{614F28ED-C4A7-4EA3-A8B6-633229578562}.Debug|Win32.ActiveCfg = Debug|Win32
+		{614F28ED-C4A7-4EA3-A8B6-633229578562}.Debug|Win32.Build.0 = Debug|Win32
+		{614F28ED-C4A7-4EA3-A8B6-633229578562}.Release|Win32.ActiveCfg = Release|Win32
+		{614F28ED-C4A7-4EA3-A8B6-633229578562}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

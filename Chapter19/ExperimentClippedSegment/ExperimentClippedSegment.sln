@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExperimentClippedSegment", "ExperimentClippedSegment.vcxproj", "{BEFC7F4E-EEF9-44E4-A90B-0D505CCA9B67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEFC7F4E-EEF9-44E4-A90B-0D505CCA9B67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BEFC7F4E-EEF9-44E4-A90B-0D505CCA9B67}.Debug|Win32.Build.0 = Debug|Win32
+		{BEFC7F4E-EEF9-44E4-A90B-0D505CCA9B67}.Release|Win32.ActiveCfg = Release|Win32
+		{BEFC7F4E-EEF9-44E4-A90B-0D505CCA9B67}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

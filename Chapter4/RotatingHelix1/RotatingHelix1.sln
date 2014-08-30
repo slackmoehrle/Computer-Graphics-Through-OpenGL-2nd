@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RotatingHelix1", "RotatingHelix1.vcxproj", "{B247A0B1-3432-42B3-A287-9D40A0B287BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B247A0B1-3432-42B3-A287-9D40A0B287BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B247A0B1-3432-42B3-A287-9D40A0B287BF}.Debug|Win32.Build.0 = Debug|Win32
+		{B247A0B1-3432-42B3-A287-9D40A0B287BF}.Release|Win32.ActiveCfg = Release|Win32
+		{B247A0B1-3432-42B3-A287-9D40A0B287BF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

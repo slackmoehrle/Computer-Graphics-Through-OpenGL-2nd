@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SphereInBox2", "SphereInBox2.vcxproj", "{66C32D42-6009-48D1-A325-3B180E5B3A47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66C32D42-6009-48D1-A325-3B180E5B3A47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66C32D42-6009-48D1-A325-3B180E5B3A47}.Debug|Win32.Build.0 = Debug|Win32
+		{66C32D42-6009-48D1-A325-3B180E5B3A47}.Release|Win32.ActiveCfg = Release|Win32
+		{66C32D42-6009-48D1-A325-3B180E5B3A47}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

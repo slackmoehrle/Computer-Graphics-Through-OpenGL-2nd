@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExperimentTextureClampedS", "ExperimentTextureClampedS.vcxproj", "{18E89EF7-6E6A-44F9-8A0F-A22A171F662C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18E89EF7-6E6A-44F9-8A0F-A22A171F662C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18E89EF7-6E6A-44F9-8A0F-A22A171F662C}.Debug|Win32.Build.0 = Debug|Win32
+		{18E89EF7-6E6A-44F9-8A0F-A22A171F662C}.Release|Win32.ActiveCfg = Release|Win32
+		{18E89EF7-6E6A-44F9-8A0F-A22A171F662C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GluQuadrics", "GluQuadrics.vcxproj", "{11FAE032-7BE4-4135-883C-B5C8DE267F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11FAE032-7BE4-4135-883C-B5C8DE267F0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11FAE032-7BE4-4135-883C-B5C8DE267F0D}.Debug|Win32.Build.0 = Debug|Win32
+		{11FAE032-7BE4-4135-883C-B5C8DE267F0D}.Release|Win32.ActiveCfg = Release|Win32
+		{11FAE032-7BE4-4135-883C-B5C8DE267F0D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

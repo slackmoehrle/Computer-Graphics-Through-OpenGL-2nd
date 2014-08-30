@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RationalBezierCurve3", "RationalBezierCurve3.vcxproj", "{072C3549-4C09-4198-BA71-A1E9F9EA1654}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{072C3549-4C09-4198-BA71-A1E9F9EA1654}.Debug|Win32.ActiveCfg = Debug|Win32
+		{072C3549-4C09-4198-BA71-A1E9F9EA1654}.Debug|Win32.Build.0 = Debug|Win32
+		{072C3549-4C09-4198-BA71-A1E9F9EA1654}.Release|Win32.ActiveCfg = Release|Win32
+		{072C3549-4C09-4198-BA71-A1E9F9EA1654}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

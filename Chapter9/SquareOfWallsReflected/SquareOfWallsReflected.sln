@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SquareOfWallsReflected", "SquareOfWallsReflected.vcxproj", "{D6C39E4C-D9EB-448F-95A0-9425A644569C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6C39E4C-D9EB-448F-95A0-9425A644569C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6C39E4C-D9EB-448F-95A0-9425A644569C}.Debug|Win32.Build.0 = Debug|Win32
+		{D6C39E4C-D9EB-448F-95A0-9425A644569C}.Release|Win32.ActiveCfg = Release|Win32
+		{D6C39E4C-D9EB-448F-95A0-9425A644569C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

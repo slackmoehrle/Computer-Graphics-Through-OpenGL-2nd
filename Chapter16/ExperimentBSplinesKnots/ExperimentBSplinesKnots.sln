@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExperimentBSplinesKnots", "ExperimentBSplinesKnots.vcxproj", "{8EFE1BC1-903A-4FB2-A596-0D1E9A4BC33A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EFE1BC1-903A-4FB2-A596-0D1E9A4BC33A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8EFE1BC1-903A-4FB2-A596-0D1E9A4BC33A}.Debug|Win32.Build.0 = Debug|Win32
+		{8EFE1BC1-903A-4FB2-A596-0D1E9A4BC33A}.Release|Win32.ActiveCfg = Release|Win32
+		{8EFE1BC1-903A-4FB2-A596-0D1E9A4BC33A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

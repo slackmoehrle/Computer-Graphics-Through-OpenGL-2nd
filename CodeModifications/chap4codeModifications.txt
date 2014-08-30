@@ -1,0 +1,294 @@
+Block 1:
+   // Modeling transformations.
+   glTranslatef(0.0, 0.0, -15.0); 
+   glScalef(2.0, 3.0, 1.0); 
+
+Block 2:
+   // Modeling transformations.
+   glTranslatef(0.0, 0.0, -15.0); 
+   glScalef(1.0, 1.0, 1.0); 
+   
+   glutWireTeapot(5.0); // Teapot.
+
+Block 3:
+   // Modeling transformations.
+      glTranslatef(0.0, 0.0, -15.0); 
+   // glScalef(1.0, 3.0, 1.0); 
+   
+   glBegin(GL_LINE_LOOP);
+      glVertex3f(4.0, 0.0, 0.0);
+      glVertex3f(0.0, 4.0, 0.0);
+      glVertex3f(-4.0, 0.0, 0.0);
+      glVertex3f(0.0, -4.0, 0.0);
+   glEnd();
+
+Block 4:
+   // Modeling transformations.
+   glTranslatef(0.0, 0.0, -15.0);
+   glRotatef(60.0, 0.0, 0.0, 1.0);
+
+   glutWireTeapot(5.0);
+
+Block 5:
+   // Modeling transformations.
+   glTranslatef(0.0, 0.0, -15.0); 
+   glTranslatef(10.0, 0.0, 0.0); 
+   glRotatef(45.0, 0.0, 0.0, 1.0);
+
+Block 6:
+   // Modeling transformations.
+   glTranslatef(0.0, 0.0, -15.0);
+   glRotatef(45.0, 0.0, 0.0, 1.0);
+   glTranslatef(10.0, 0.0, 0.0); 
+
+Block 7:
+   // Modeling transformations.
+   glTranslatef(0.0, 0.0, -15.0); 
+   glRotatef(45.0, 0.0, 0.0, 1.0);
+   glScalef(1.0, 3.0, 1.0);
+
+Block 8:
+   // Modeling transformations.
+   glTranslatef(0.0, 0.0, -15.0); 
+   glScalef(1.0, 3.0, 1.0); 
+   glRotatef(45.0, 0.0, 0.0, 1.0);
+
+Block 9:
+   // Modeling transformations.
+   glTranslatef(0.0, 0.0, -15.0); 
+   
+   glTranslatef(7.5, 7.5, 0.0); // Translate back.
+   glRotatef(45.0, 0.0, 0.0, 1.0); // Rotate about origin.
+   glTranslatef(-7.5, -7.5, 0.0); // Translate to origin.
+
+Block 10:
+void drawScene(void)
+{
+   glClear(GL_COLOR_BUFFER_BIT);
+   glColor3f(0.0, 0.0, 0.0);
+   glLoadIdentity(); 
+   
+   // Modeling transformations.	
+   glTranslatef(0.0, 0.0, -15.0); 
+   // glRotatef(45.0, 0.0, 0.0, 1.0);
+   glTranslatef(5.0, 0.0, 0.0);
+
+   glutWireCube(5.0); // Box.
+
+   //More modeling transformations.
+   glTranslatef (0.0, 10.0, 0.0);
+
+   glutWireSphere (2.0, 10, 8); // Sphere.
+
+   glFlush();
+}
+
+Block 11:
+   // Modeling transformations.	
+   glTranslatef(0.0, 0.0, -15.0);
+   glRotatef(45.0, 0.0, 0.0, 1.0);
+   glTranslatef(5.0, 0.0, 0.0); 
+
+   glutWireCube(5.0); // Box.
+
+   //More modeling transformations.
+   glTranslatef (0.0, 10.0, 0.0);
+
+   glutWireSphere (2.0, 10, 8); // Sphere.
+
+Block 12:
+void drawScene(void)
+{
+   glClear(GL_COLOR_BUFFER_BIT);
+   glColor3f(0.0, 0.0, 0.0);
+   glLoadIdentity(); 
+
+   glTranslatef(0.0, 0.0, -15.0);
+
+   glScalef(1.0, 2.0, 1.0); 
+   glutWireCube(5.0); // Box torso.
+
+   glTranslatef(0.0, 7.0, 0.0); 
+   glutWireSphere(2.0, 10, 8); // Spherical head.
+
+   glFlush();
+}
+
+Block 13:
+void drawScene(void)
+{
+   glClear(GL_COLOR_BUFFER_BIT);
+   glColor3f(0.0, 0.0, 0.0);
+   glLoadIdentity(); 
+
+   glTranslatef(0.0, 0.0, -15.0);
+
+   glPushMatrix();
+   glScalef(1.0, 2.0, 1.0); 
+   glutWireCube(5.0); // Box.
+   glPopMatrix();
+
+   glTranslatef(0.0, 7.0, 0.0); 
+   glutWireSphere(2.0, 10, 8); // Sphere.
+
+   glFlush();
+}
+
+Block 14:
+   glTranslatef(4.0, 0.0, 0.0);
+
+   // Satellite
+   glColor3f(1.0, 0.0, 0.0);
+   glutWireSphere(0.5, 5, 5);
+
+Block 15:
+   glRotatef(10*latAngle, 0.0, 1.0, 0.0);
+   glTranslatef(4.0, 0.0, 0.0);
+
+   // Satellite
+   glColor3f(1.0, 0.0, 0.0);
+   glutWireSphere(0.5, 5, 5);
+
+Block 16:
+   // Trick code block.
+   glTranslatef(4.0, 0.0, 0.0);
+   glRotatef(10*latAngle, 0.0, 1.0, 0.0);
+   glTranslatef(-4.0, 0.0, 0.0);
+    
+   glTranslatef(4.0, 0.0, 0.0);
+
+   // Satellite.   
+   glColor3f(1.0, 0.0, 0.0);
+   glutWireSphere(0.5, 5, 5);
+
+Block 17:
+void drawScene(void)
+{
+   glClear(GL_COLOR_BUFFER_BIT);
+   glLoadIdentity();
+
+   // Place scene in frustum.
+   glTranslatef(0.0, 0.0, -9.0);
+
+   // Head.
+   glColor3f(0.0, 0.0, 1.0);
+   glutWireSphere(2.0, 20, 20);
+
+   // Hat.
+   glColor3f(0.0, 1.0, 0.0);
+   glutWireCone(2.0, 5.0, 20, 20);
+   
+   glutSwapBuffers();
+}
+
+Block 18:
+void drawScene(void)
+{
+   glClear(GL_COLOR_BUFFER_BIT);
+   glLoadIdentity();
+
+   // Place scene in frustum.
+   glTranslatef(0.0, 0.0, -9.0);
+
+   // Head.
+   glColor3f(0.0, 0.0, 1.0);
+   glutWireSphere(2.0, 20, 20);
+
+   // Transformations of the hat.
+   glRotatef(30.0, 0.0, 0.0, 1.0);
+   glRotatef(-90.0, 1.0, 0.0, 0.0);
+   glTranslatef(0.0, 0.0, 2.0);
+
+   // Hat.
+   glColor3f(0.0, 1.0, 0.0);
+   glutWireCone(2.0, 5.0, 20, 20);
+   
+   glutSwapBuffers();
+}
+
+Block 19:
+void drawScene(void)
+{
+   glClear(GL_COLOR_BUFFER_BIT);
+   glLoadIdentity();
+
+   // Place scene in frustum.
+   glTranslatef(0.0, 0.0, -9.0);
+
+   // Head.
+   glColor3f(0.0, 0.0, 1.0);
+   glutWireSphere(2.0, 20, 20);
+
+   // Transformations of the hat and brim.
+   glRotatef(30.0, 0.0, 0.0, 1.0);
+   glRotatef(-90.0, 1.0, 0.0, 0.0);
+   glTranslatef(0.0, 0.0, 2.0);
+
+   // Hat.
+   glColor3f(0.0, 1.0, 0.0);
+   glutWireCone(2.0, 5.0, 20, 20);
+
+   // Brim.
+   glutWireTorus(0.2, 2.2, 10, 25);
+
+   glutSwapBuffers();
+}
+
+Block 20:
+void drawScene(void)
+{
+   glClear(GL_COLOR_BUFFER_BIT);
+   glColor3f(0.0, 0.0, 0.0);
+   glLoadIdentity(); 
+   
+   // Viewing transformation.
+   gluLookAt(0.0, 0.0, 15.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0); 
+
+   glutWireCube(5.0); // Box.
+
+   glFlush();
+}
+
+Block 21:
+void drawScene(void)
+{
+   glClear(GL_COLOR_BUFFER_BIT);
+   glColor3f(0.0, 0.0, 0.0);
+
+   glLoadIdentity(); 
+   
+   // Viewing transformation.
+   gluLookAt(0.0, 0.0, 15.0, 15.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+
+   // Modeling transformation block equivalent
+   // to the preceding viewing transformation.
+   // glRotatef(45.0, 0.0, 1.0, 0.0);
+   // glTranslatef(0.0, 0.0, -15.0);
+
+   glutWireCube(5.0);
+
+   glFlush();
+}
+
+Block 22:
+void drawScene(void)
+{
+   glClear(GL_COLOR_BUFFER_BIT);
+   glColor3f(0.0, 0.0, 0.0);
+
+   glLoadIdentity(); 
+   
+   // Viewing transformation.
+   gluLookAt(-30.0, 0.0, 30.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+
+   // Modeling transformation block equivalent
+   // to the preceding viewing transformation.
+   // glRotatef(45.0, 0.0, 1.0, 0.0);
+   // glTranslatef(30.0, 0.0, -30.0);
+
+   glutWireCone(3.0, 10.0, 20, 20);
+
+   glFlush();
+}
+
+

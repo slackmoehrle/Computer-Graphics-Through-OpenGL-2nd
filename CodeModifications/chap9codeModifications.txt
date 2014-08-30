@@ -1,0 +1,76 @@
+Block 1:
+   glPolygonMode(GL_FRONT, GL_LINE);
+   glPolygonMode(GL_BACK, GL_FILL);
+   glBegin(GL_POLYGON);
+      glVertex3f(20.0, 20.0, 0.0);
+      glVertex3f(80.0, 20.0, 0.0);
+      glVertex3f(80.0, 80.0, 0.0);
+      glVertex3f(20.0, 80.0, 0.0);
+   glEnd();
+
+Block 2:
+   glPolygonMode(GL_FRONT, GL_LINE);
+   glPolygonMode(GL_BACK, GL_FILL);
+   glBegin(GL_POLYGON);
+      glVertex3f(20.0, 80.0, 0.0);
+      glVertex3f(20.0, 20.0, 0.0);
+      glVertex3f(80.0, 20.0, 0.0);
+      glVertex3f(80.0, 80.0, 0.0);
+   glEnd();
+
+Block 3:
+   glPolygonMode(GL_FRONT, GL_LINE);
+   glPolygonMode(GL_BACK, GL_FILL);
+   glBegin(GL_POLYGON);
+      glVertex3f(80.0, 80.0, 0.0);
+      glVertex3f(80.0, 20.0, 0.0);
+      glVertex3f(20.0, 20.0, 0.0);
+      glVertex3f(20.0, 80.0, 0.0);
+   glEnd();
+
+Block 4:
+   glFrontFace(GL_CW);
+   glPolygonMode(GL_FRONT, GL_LINE);
+   glPolygonMode(GL_BACK, GL_FILL);
+   glBegin(GL_TRIANGLES);
+      glVertex3f(80.0, 10.0, -1.0);
+      glVertex3f(90.0, 75.0, 1.0);
+      glVertex3f(15.0, 10.0, 0.5);
+   glEnd();
+
+Block 5:
+   glPolygonMode(GL_FRONT, GL_LINE);
+   glPolygonMode(GL_BACK, GL_FILL);
+   glBegin(GL_TRIANGLES);
+      // CCW
+      glVertex3f(20.0, 80.0, 0.0);
+      glVertex3f(20.0, 20.0, 0.0);
+      glVertex3f(50.0, 80.0, 0.0);
+
+      //CCW
+      glVertex3f(50.0, 80.0, 0.0);
+      glVertex3f(20.0, 20.0, 0.0);
+      glVertex3f(50.0, 20.0, 0.0);
+
+      // CW
+      glVertex3f(50.0, 20.0, 0.0);
+      glVertex3f(50.0, 80.0, 0.0);
+      glVertex3f(80.0, 80.0, 0.0);
+
+      // CCW
+      glVertex3f(80.0, 80.0, 0.0);
+      glVertex3f(50.0, 20.0, 0.0);
+      glVertex3f(80.0, 20.0, 0.0);
+   glEnd();
+
+Block 6:
+   glPolygonMode(GL_FRONT, GL_LINE);
+   glPolygonMode(GL_BACK, GL_FILL);
+   glBegin(GL_TRIANGLE_STRIP);
+      glVertex3f(20.0, 80.0, 0.0);
+      glVertex3f(20.0, 20.0, 0.0);
+      glVertex3f(50.0, 80.0, 0.0);
+      glVertex3f(50.0, 20.0, 0.0);
+      glVertex3f(80.0, 80.0, 0.0);
+      glVertex3f(80.0, 20.0, 0.0);
+   glEnd();
